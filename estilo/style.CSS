@@ -1,0 +1,30 @@
+img{
+        margin-right: 60px;
+        margin-bottom: 40px;
+        padding: 0px;
+
+    display: inline-block;
+    padding: 4px;
+    border-radius: 12px;
+
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bfd, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400% 400%;
+    animation: efeitoRGB 8s ease infinite;
+  }
+  
+ 
+  
+  @keyframes efeitoRGB {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+
