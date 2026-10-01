@@ -1,47 +1,60 @@
 img{
-        margin-left: 50px;
-        padding: 0px;
-        
+    margin-left: 50px;
+    padding: 0px;
+    
 
-    display: inline-block;
-    padding: 4px;
-    border-radius: 12px;
+display: inline-block;
+padding: 4px;
+border-radius: 12px;
 
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bfd, #7a00ff, #ff00c8, #ff0000);
-    background-size: 400% 400%;
-    animation: efeitoRGB 8s ease infinite;
-  }
-  
-  
-  @keyframes efeitoRGB {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bfd, #7a00ff, #ff00c8, #ff0000);
+background-size: 400% 400%;
+animation: efeitoRGB 8s ease infinite;
+}
 
-  body{
-    font-family: 'Courier New', Courier, monospace;
-    background-color:#c5bcbc4b;
-  }
 
-  .titulo{
-    text-align: center;
-  }
+@keyframes efeitoRGB {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+body{
+font-family: 'Courier New', Courier, monospace;
+background-color:#c5bcbc4b;
+}
+
+.titulo{
+text-align: center;
+}
 nav{
-    font-size: 30px;
-    background: linear-gradient(90deg, #ff007f, #7f00ff);
-    padding: 12px 20px;
-    border-radius: 100px;
-    text-align: center;
+font-size: 30px;
+background: linear-gradient(90deg, #ff007f, #7f00ff);
+padding: 12px 20px;
+border-radius: 100px;
+text-align: center;
 
 }
 
 .lista{
-    color: white;
+color: white;
+}
+
+button{
+    height: 80px;
+    width: 200px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+
+background: linear-gradient(45deg, #ff0000, #ff7300, #48ff00, #00ffd5, #002bfd, #7a00ff, #ff00c8, #ff0000);
+background-size: 400% 400%;
+animation: efeitoRGB 8s ease infinite;
 }
