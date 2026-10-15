@@ -40,6 +40,7 @@ padding: 12px 20px;
 border-radius: 100px;
 text-align: center;
 
+
 }
 
 .lista{
@@ -57,4 +58,8 @@ button{
 background: linear-gradient(45deg, #ff0000, #ff7300, #48ff00, #00ffd5, #002bfd, #7a00ff, #ff00c8, #ff0000);
 background-size: 400% 400%;
 animation: efeitoRGB 8s ease infinite;
+}
+
+li{
+    text-align: center;
 }
